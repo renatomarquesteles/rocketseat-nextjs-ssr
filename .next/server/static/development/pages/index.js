@@ -1777,28 +1777,43 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "/home/renato/Documents/NodeJs/nextjs-ssr/pages/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-const Home = () => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("h1", {
+
+const Home = () => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 6
+    lineNumber: 8
+  },
+  __self: undefined
+}, __jsx("title", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 9
+  },
+  __self: undefined
+}, "Home")), __jsx("h1", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11
   },
   __self: undefined
 }, "Hello World"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
   href: "/users",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 7
+    lineNumber: 12
   },
   __self: undefined
 }, __jsx("a", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 8
+    lineNumber: 13
   },
   __self: undefined
 }, "Users")));
@@ -1871,6 +1886,17 @@ module.exports = require("core-js/library/fn/symbol/iterator");
 /***/ (function(module, exports) {
 
 module.exports = require("core-js/library/fn/weak-map");
+
+/***/ }),
+
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next/head");
 
 /***/ }),
 
