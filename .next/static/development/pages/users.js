@@ -12638,7 +12638,7 @@ User.getInitialProps = function _callee() {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!*******************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fusers&absolutePagePath=%2Fhome%2Frenato%2FDocuments%2FNodeJs%2Fnextjs-ssr%2Fpages%2Fusers.js ***!
   \*******************************************************************************************************************************************/
@@ -12661,5 +12661,5 @@ module.exports = dll_5f137288facb1107b491;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=users.js.map
