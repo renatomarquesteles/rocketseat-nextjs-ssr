@@ -11,7 +11,7 @@ const Home = () => (
       <title>Home</title>
     </Head>
     <img src="/images/city.jpg" width="800" />
-    <h1>Hello World</h1>
+    <h1>Home Page</h1>
     <Link href="/users">
       <a>Users</a>
     </Link>
