@@ -5,7 +5,7 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
-          <style>{`body { background: #AEEA00}`}</style>
+          <style>{`body { background: #0390fc}`}</style>
         </Head>
         <body>
           <Main />

@@ -11910,23 +11910,31 @@ var Home = function Home() {
       lineNumber: 11
     },
     __self: this
-  }, "Home")), __jsx("h1", {
+  }, "Home")), __jsx("img", {
+    src: "/images/city.jpg",
+    width: "800",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
+    },
+    __self: this
+  }), __jsx("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
     },
     __self: this
   }, "Hello World"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/users",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 15
     },
     __self: this
   }, __jsx("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 16
     },
     __self: this
   }, "Users")));
@@ -12012,7 +12020,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement;
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!**************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Frenato%2FDocuments%2FNodeJs%2Fnextjs-ssr%2Fpages%2Findex.js ***!
   \**************************************************************************************************************************************/
@@ -12035,5 +12043,5 @@ module.exports = dll_5f137288facb1107b491;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

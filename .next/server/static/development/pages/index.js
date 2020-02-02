@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1799,23 +1799,31 @@ const Home = () => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, 
     lineNumber: 11
   },
   __self: undefined
-}, "Home")), __jsx("h1", {
+}, "Home")), __jsx("img", {
+  src: "/images/city.jpg",
+  width: "800",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 13
+  },
+  __self: undefined
+}), __jsx("h1", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14
   },
   __self: undefined
 }, "Hello World"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
   href: "/users",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 14
+    lineNumber: 15
   },
   __self: undefined
 }, __jsx("a", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 15
+    lineNumber: 16
   },
   __self: undefined
 }, "Users")));
@@ -1871,7 +1879,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
